@@ -1,0 +1,22 @@
+{
+  "name": "reel-mama-kuliah-lagi",
+  "private": true,
+  "version": "1.0.0",
+  "description": "IG Reels ad: Gemini Notebook Workshop, \"Mama Kembali Kuliah di Usia 47\"",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render MamaKuliahLagi out/mama-kuliah-lagi.mp4",
+    "still": "remotion still MamaKuliahLagi out/cover.png --frame=1300"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.533",
+    "@remotion/fonts": "4.0.533",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.533"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
+  }
+}
