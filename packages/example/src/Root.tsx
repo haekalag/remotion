@@ -348,6 +348,7 @@ import {SvgPaintSchema} from './VisualModeTests/SvgPaintSchema';
 import {VideoConfigExpressions} from './VisualModeTests/VideoConfigExpressions';
 import {VoiceVisualization} from './voice-visualization';
 import {WhisperWeb} from './WhisperWeb';
+import {ZeffRaidenTrailer} from './ZeffRaiden';
 
 class Vector2 {
 	readonly x: number;
@@ -3281,6 +3282,14 @@ export const Index: React.FC = () => {
 				height={720}
 				fps={30}
 				durationInFrames={180}
+			/>
+			<Composition
+				id="zeff-raiden-trailer"
+				component={ZeffRaidenTrailer}
+				width={1080}
+				height={1920}
+				fps={30}
+				durationInFrames={900}
 			/>
 		</>
 	);
